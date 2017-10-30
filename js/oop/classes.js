@@ -11,7 +11,8 @@ class Jandroid {
 		this.displayUserInput();
 		this.input = this.input.toLowerCase();
 
-		(this.input.toLowerCase() == "clear" || this.input.toLowerCase() == "cls") ?  this.clearContainer() : this.displayJanosResponse(this.determine);
+		// (this.input.toLowerCase() == "clear" || this.input.toLowerCase() == "cls") ?  this.clearContainer() : this.displayJanosResponse(this.determine);
+		this.displayJanosResponse(this.determine);
 	}
 
 	get determine() {

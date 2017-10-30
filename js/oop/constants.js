@@ -75,6 +75,9 @@ const JANOSPLACEHOLDER = "JAN SARMIENTO";
 
 const DATA_RESET_INPUT = [
 	"reset",
-	"res"
+	"res",
+	"clear",
+	"clr",
+	"cls"
 ];
 const DATA_RESET_REPONSE = "Welcome, User.<br/>Im Jan Joseph T. Sarmiento and this playground is to hold my portfolio<br/>A developer aspiring to create<br/><br/>Code | Music | Play";
