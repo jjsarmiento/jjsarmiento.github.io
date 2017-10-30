@@ -45,17 +45,17 @@ a:active {
 	font-size: 1.4em; 
 }
 input[type=text]#codeInput {
-	/*border: 1px solid #FFFFFF;*/
 	/*border-radius: 0;*/
-	border: none;
-	/*padding: 0.1em 0 0.1em 0;*/
+	/*border: none;*/
+	border: 4px solid #FFFFFF;
+	padding: 0.5em 0 0.5em 0;
     outline: none;
 	font-size: 4em;
 	text-align: center;
 	background-color: transparent;
 	font-family: monospace;
 	/*transition: opacity .4s ease-in-out;*/
-	transition: 0.4s;
+	transition: 0.2s;
 	color: #FFFFFF;
 	cursor: pointer;
     width: 100%;
@@ -130,7 +130,7 @@ p#welc_msg {
 	text-align: center;
 }
 .links {
-	margin-top: 1em;
+	margin-top: 3em;
 	text-align: center;
 }
 .links > a:hover {
@@ -139,9 +139,10 @@ p#welc_msg {
     text-shadow: 0px 0px 30px rgb(249, 230, 67);
 }
 .links > a {
-	/*opacity: 0.1;*/
+	opacity: 0.4;
 	color: #FFFFFF;
 	padding-right: 3.5em;
+	font-size: 0.9em;
 }
 .links > a:last-child {
 	padding: 0;
@@ -223,14 +224,17 @@ div.card-proj {
 div.card-proj:hover {
 	/*box-shadow: 0px 15px 20px #6C6C6C;*/
 	/*box-shadow: 0px 15px 20px #5b5b5b;*/
-	box-shadow: 0px 0px 10px #FEE745;
-	color: #000000;
-	background-color: #FEE745;
+	/*box-shadow: 0px 0px 10px #FEE745;*/
+	/*color: #000000;*/
+	color: #FFFFFF;
+	/*background-color: #FEE745;*/
 	/*box-shadow: 0px 16px 50px #6C6C6C;*/
 	z-index: 10000;
-	/*border-radius: 0.4em;*/
 	/*margin-bottom: 1em;*/
 	/*margin-top: 1em;*/
+	padding-right: 3em;
+	border-right: 4px solid #FEE745;
+	/*box-shadow: 15px 0px 5px #FEE745;	*/
 }
 ul.list {
 	/*width: 100%;*/

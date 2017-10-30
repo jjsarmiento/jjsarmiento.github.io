@@ -37,7 +37,7 @@ $.ripple(".card-proj", {
 	on: 'mousedown', // The event to trigger a ripple effect
 
 	opacity: 0.2, // The opacity of the ripple
-	color: "black", // Set the background color. If set to "auto", it will use the text color
+	color: "#FEE745", // Set the background color. If set to "auto", it will use the text color
 	multi: true, // Allow multiple ripples per element
 
 	duration: 0.4, // The duration of the ripple
