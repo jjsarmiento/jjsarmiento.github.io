@@ -173,9 +173,10 @@ img.centered {
     transform: translate(-50%, -50%);
 }
 div.card-proj > p.body {
+	transition: 0.2s;
 	font-size: 1.1em;
 	text-transform: uppercase;
-	/*color: #FEE745;*/
+	color: #333333;
 }
 div.card-proj > p.head {
 	margin: 0;
@@ -233,6 +234,7 @@ div.card-proj {
 
 div.card-proj:hover > p.body {
 	color: #FEE745;
+	transition: 1s;
 }
 
 div.card-proj:hover {
