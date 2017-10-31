@@ -49,3 +49,10 @@ $.ripple(".card-proj", {
 
 	easing: 'linear' // The CSS3 easing function of the ripple
 });
+
+$(".card-proj").click(function(){
+	if ($(this).data("href") != undefined) {
+		var win = window.open($(this).data("href"), '_blank');
+  		win.focus();
+	}
+});

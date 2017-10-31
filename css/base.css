@@ -55,10 +55,10 @@ a:active {
 input[type=text]#codeInput {
 	/*border-radius: 0;*/
 	/*border: none;*/
-	border: 4px solid #FFFFFF;
+	border: 1px solid #FFFFFF;
 	padding: 0.5em 0 0.5em 0;
     outline: none;
-	font-size: 4em;
+	font-size: 3em;
 	text-align: center;
 	background-color: transparent;
 	font-family: monospace;
@@ -108,23 +108,23 @@ span.janos {
 	letter-spacing: 3px;
 }
 ::-webkit-input-placeholder { /* Chrome */
-	letter-spacing: 3px;
+	letter-spacing: 10px;
   	transition: opacity 250ms ease-in-out;
 	color: #FFFFFF;
 }
 :-ms-input-placeholder { /* IE 10+ */
-	letter-spacing: 3px;
+	letter-spacing: 10px;
   	transition: opacity 250ms ease-in-out;
 	color: #FFFFFF;
 }
 ::-moz-placeholder { /* Firefox 19+ */
-	letter-spacing: 3px;
+	letter-spacing: 10px;
   	opacity: 1;
   	transition: opacity 250ms ease-in-out;
 	color: #FFFFFF;
 }
 :-moz-placeholder { /* Firefox 4 - 18 */
-	letter-spacing: 3px;
+	letter-spacing: 10px;
 	color: #FFFFFF;
 }
 
