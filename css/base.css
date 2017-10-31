@@ -20,6 +20,11 @@ body {
 .text-right { text-align: right; }
 .text-left { text-align: left; }
 
+::selection {
+	background-color: #FEE745;
+	color: #000000;
+}
+
 div#codeResults {
 	/*font-family: Courier;*/
 	/*text-shadow: 1px 1px #FFFFFF;*/
@@ -183,7 +188,7 @@ div.card-proj > p.head {
 	padding: 0;
 	font-size: 1.2em;
 	text-transform: uppercase;
-	letter-spacing: 5px;
+	letter-spacing: 3px;
 	/*text-align: right;*/
 	/*text not selectable*/
 	-webkit-touch-callout: none;
