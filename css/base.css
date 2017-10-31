@@ -54,8 +54,9 @@ a:active {
 }
 input[type=text]#codeInput {
 	/*border-radius: 0;*/
-	/*border: none;*/
-	border: 1px solid #FFFFFF;
+	border: none;
+	/*border-bottom: 1px solid #FFFFFF;*/
+	border-bottom: 1px solid #6C6C6C;
 	padding: 0.5em 0 0.5em 0;
     outline: none;
 	font-size: 3em;
@@ -138,7 +139,7 @@ p#welc_msg {
 	text-align: center;
 }
 .links {
-	margin-top: 3em;
+	margin-top: 2.5em;
 	text-align: center;
 }
 .links > a:hover {
@@ -148,7 +149,8 @@ p#welc_msg {
 }
 .links > a {
 	opacity: 0.4;
-	color: #FFFFFF;
+	/*color: #FFFFFF;*/
+	color: #FFEB3B;
 	padding-right: 3.5em;
 	font-size: 0.9em;
 }

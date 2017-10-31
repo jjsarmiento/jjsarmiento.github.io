@@ -56,3 +56,9 @@ $(".card-proj").click(function(){
   		win.focus();
 	}
 });
+
+$(document).keypress(function(event) {
+	if(event.which == 9) {
+		$("#codeInput").focus();
+	}
+});

@@ -30,6 +30,9 @@ class Jandroid {
 			return DATA_PL_REPONSE;
 		} else if (this.input.toLowerCase() == "version") {
 			return JANOS_VERSION;
+		} else if (DATA_PROJ_INPUT.indexOf(this.input) != -1) {
+			this.showProjects();
+			return DATA_PROJ_RESPONSE;
 		} else {
 			return INPUT_UNKNOWN;
 		}
@@ -50,6 +53,11 @@ class Jandroid {
 
 	clearContainer() {
 		$(this.container).empty();
+	}
+
+	showProjects() {
+		$("#left-pane").fadeIn('fast');
+		// $("#left-pane").slideToggle(1000);
 	}
 }
 

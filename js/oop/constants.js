@@ -81,3 +81,18 @@ const DATA_RESET_INPUT = [
 	"cls"
 ];
 const DATA_RESET_REPONSE = "Welcome, User.<br/>Im Jan Joseph T. Sarmiento and this playground is to hold my portfolio<br/>A developer aspiring to create<br/><br/>Code | Music | Play";
+
+const DATA_PROJ_INPUT = [
+	"project",
+	"projects",
+	"proj",
+	"work",
+	"works",
+];
+
+const DATA_PROJ_RESPONSE = [
+	"",
+	"Showing Project Pane..",
+	"Project pane successfully displayed.",
+	"Please locate projects on left panel"
+];
