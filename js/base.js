@@ -25,12 +25,12 @@ $(".links > a").hover(function(){
 });
 
 tiltConf = {
-	// maxTilt : 30,
-	// scale : 1.3
+	maxTilt : 3,
+	scale : 1
 };
 
 // $(".toTilt").tilt(tilConf);
-$(".toTilt").tilt();
+$(".card-main").tilt(tiltConf);
 
 $.ripple(".card-proj", {
 	debug: false, // Turn Ripple.js logging on/off
@@ -52,8 +52,11 @@ $.ripple(".card-proj", {
 
 $(".card-proj").click(function(){
 	if ($(this).data("href") != undefined) {
-		var win = window.open($(this).data("href"), '_blank');
-  		win.focus();
+		var url = $(this).data("href");
+		setTimeout(function(){
+			var win = window.open(url, '_blank');
+  			win.focus();
+		}, 1000);
 	}
 });
 

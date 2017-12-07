@@ -182,7 +182,7 @@ img.centered {
 }
 div.card-proj > p.body {
 	transition: 0.2s;
-	font-size: 1.1em;
+	/*font-size: 1.1em;*/
 	text-transform: uppercase;
 	color: #333333;
 }
@@ -214,7 +214,7 @@ div.card-proj > div {
 	padding-top: 0.5em;
 	margin-top: 0.5em;
 	border-top: 1px solid #333333;
-	font-size: 1.1em;
+	/*font-size: 1.1em;*/
 }
 
 div.card-proj.right { text-align: right; }
@@ -236,7 +236,7 @@ div.card-proj {
 	/*margin-bottom: 1em;*/
 	/*box-shadow: 0px 16px 20px #FFFFFF;*/
 	transition: 0.2s;
-	padding: 2em;
+	padding: 1.6em;
 	cursor: pointer;
 }
 
@@ -304,4 +304,92 @@ div.nav-group {
 {
 	border-radius: 20px;
 	background-color: #FEE745;
+}
+
+.bg-yellow { 
+	background-color: #FEE745;
+	/*color: #000000;*/
+}
+
+h1,h2,h3 {
+	margin: 0;
+	padding: 0;
+}
+
+.card-main > p.content {
+	color: #333333;
+	font-size: 1.1em;
+	text-align: justify;
+	letter-spacing: 2px;
+	font-weight: bolder;
+	padding: 2em;
+	/*text-shadow: 0px 0px 1px rgba(0, 0, 0, 1);*/
+	transition: 0.4;
+	background-color: #FFF;
+}
+
+.card-main > p.title {
+	color: #333 !important;
+	font-size: 3em;
+	margin-bottom: 0; 
+	text-align: center;
+	letter-spacing: 4px;
+	/*transition: 2 !important;*/
+}
+.card-main {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+	min-height: 500px;
+	padding: 4em;
+	background-size: auto 100%;
+	background-image: url("../images/blur.jpg");
+	transform-style: preserve-3d;
+}
+
+.card-main:hover {
+	color: #333 !important;
+	background-size: auto 100%;
+	background-image: url("../images/blur.jpg");
+
+    -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(0%);
+	/*background-color: #FEE745;*/
+	/*background-image: url("http://dummy-images.com/abstract/dummy-100x100-Rope.jpg");*/
+	/*background-repeat: no-repeat;*/
+	/*
+    -webkit-animation: fadein 1s;
+       -moz-animation: fadein 1s;
+        -ms-animation: fadein 1s;
+         -o-animation: fadein 1s;
+            animation: fadein 1s;
+            */
+}
+.card-main > p.foot button {
+	background: transparent;
+	border: none;
+	cursor: pointer;
+	outline: none;
+	float: right;
+	color: #333333;
+	margin: 1em;
+	transition: 0.4s;
+	/*opacity: 0;*/
+	/*height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	line-height: 50px;
+	vertical-align: middle;*/
+}
+.card-main > p.foot button:first-child { margin-right: 0; } 
+.card-main > p.foot button:hover { 
+	color: #FEE745; 
+	/*background-color: #FEE745; */
+}
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+@keyframes fadeout {
+    from { opacity: 1; }
+    to   { opacity: 0; }
 }
