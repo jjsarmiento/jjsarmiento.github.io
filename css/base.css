@@ -22,7 +22,9 @@ body {
 .p-2 { padding: 2em; }
 .text-right { text-align: right; }
 .text-left { text-align: left; }
-
+/*.clr-blue { color: #2196f3; }*/
+.clr-blue { color: #4dd0e1; }
+.upcase { text-transform: uppercase; }
 ::selection {
 	background-color: #FEE745;
 	color: #000000;
