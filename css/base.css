@@ -217,15 +217,24 @@ div.card-proj > div {
 	/*font-size: 1.1em;*/
 }
 
-div.card-proj.right { text-align: right; }
+div.card-proj.right { 
+	text-align: right; 
+	border-bottom: 2px solid transparent;
+}
 div.card-proj.right:hover { 
 	padding-right: 3em;
-	border-right: 4px solid #FEE745;
+	border-bottom: 2px solid #FEE745;
+	/*border-top: 1px solid #FEE745;*/
+	border-right: 20px solid #FEE745;
 }
-div.card-proj.left { text-align: left; }
+div.card-proj.left { 
+	text-align: left; 
+	border-bottom: 2px solid transparent;
+}
 div.card-proj.left:hover {
+	border-bottom: 2px solid #FEE745;
 	padding-left: 3em;
-	border-left: 4px solid #FEE745;
+	border-left: 20px solid #FEE745;
 }
 
 div.card-proj {
