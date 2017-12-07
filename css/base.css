@@ -3,7 +3,9 @@
 #ffffff
 #99cc99
 #cccccc*/
-
+* {
+	box-sizing: border-box;
+}
 body {
 	background-color: #333333;
     /*background-image: url('../images/plexus2.jpg');*/
@@ -219,22 +221,22 @@ div.card-proj > div {
 
 div.card-proj.right { 
 	text-align: right; 
-	border-bottom: 2px solid transparent;
+	/*border-bottom: 2px solid transparent;*/
 }
 div.card-proj.right:hover { 
 	padding-right: 3em;
-	border-bottom: 2px solid #FEE745;
+	/*border-bottom: 4px solid #FEE745;*/
 	/*border-top: 1px solid #FEE745;*/
-	border-right: 20px solid #FEE745;
+	border-right: 2em solid #FEE745;
 }
 div.card-proj.left { 
 	text-align: left; 
-	border-bottom: 2px solid transparent;
+	/*border-bottom: 2px solid transparent;*/
 }
 div.card-proj.left:hover {
-	border-bottom: 2px solid #FEE745;
+	/*border-bottom: 4px solid #FEE745;*/
 	padding-left: 3em;
-	border-left: 20px solid #FEE745;
+	border-left: 2em solid #FEE745;
 }
 
 div.card-proj {
@@ -325,7 +327,10 @@ h1,h2,h3 {
 	padding: 0;
 }
 
-.card-main > p.content {
+.card-main div.tilt-para {	
+}
+.card-main p.content {
+	transform: translateZ(50px);
 	color: #333333;
 	font-size: 1.1em;
 	text-align: justify;
@@ -333,11 +338,11 @@ h1,h2,h3 {
 	font-weight: bolder;
 	padding: 2em;
 	/*text-shadow: 0px 0px 1px rgba(0, 0, 0, 1);*/
-	transition: 0.4;
+	/*transition: 0.4;*/
 	background-color: #FFF;
 }
 
-.card-main > p.title {
+.card-main p.title {
 	color: #333 !important;
 	font-size: 3em;
 	margin-bottom: 0; 
@@ -346,6 +351,7 @@ h1,h2,h3 {
 	/*transition: 2 !important;*/
 }
 .card-main {
+	margin-top: 2em;
     -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
     filter: grayscale(100%);
 	min-height: 500px;
@@ -356,10 +362,7 @@ h1,h2,h3 {
 }
 
 .card-main:hover {
-	color: #333 !important;
-	background-size: auto 100%;
-	background-image: url("../images/blur.jpg");
-
+	z-index: 9999;
     -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
     filter: grayscale(0%);
 	/*background-color: #FEE745;*/
@@ -373,7 +376,7 @@ h1,h2,h3 {
             animation: fadein 1s;
             */
 }
-.card-main > p.foot button {
+.card-main p.foot button {
 	background: transparent;
 	border: none;
 	cursor: pointer;
@@ -389,8 +392,8 @@ h1,h2,h3 {
 	line-height: 50px;
 	vertical-align: middle;*/
 }
-.card-main > p.foot button:first-child { margin-right: 0; } 
-.card-main > p.foot button:hover { 
+.card-main p.foot button:first-child { margin-right: 0; } 
+.card-main p.foot button:hover { 
 	color: #FEE745; 
 	/*background-color: #FEE745; */
 }

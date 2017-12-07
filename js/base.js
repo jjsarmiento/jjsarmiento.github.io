@@ -26,7 +26,7 @@ $(".links > a").hover(function(){
 
 tiltConf = {
 	maxTilt : 3,
-	scale : 1
+	scale : 1.1
 };
 
 // $(".toTilt").tilt(tilConf);
@@ -40,6 +40,7 @@ $.ripple(".card-proj", {
 	color: "#FEE745", // Set the background color. If set to "auto", it will use the text color
 	multi: true, // Allow multiple ripples per element
 
+	transition : true,
 	duration: 0.5, // The duration of the ripple
 
 	// Filter function for modifying the speed of the ripple
@@ -47,7 +48,7 @@ $.ripple(".card-proj", {
         return pxPerSecond;
     },
 
-	easing: 'linear' // The CSS3 easing function of the ripple
+	easing: "cubic-bezier(.03,.98,.52,.99)" // The CSS3 easing function of the ripple
 });
 
 $(".card-proj").click(function(){
